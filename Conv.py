@@ -12,7 +12,7 @@ def convolve(x, h):
     return y
 
 # Example usage:
-x = [1, 2, 3]  # Input signal
+x = [1, 2, 3, 4, 5]  # Input signal
 h = [0, 1, 0.5]  # Impulse response
 
 y = convolve(x, h)
